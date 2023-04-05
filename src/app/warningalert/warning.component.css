@@ -1,4 +1,9 @@
 h2 {
-    color: red;
+    color: wheat;
     font-weight: 600;
+    padding: 10px;
+    background-color: rgb(227, 99, 99);
+    width: 50%;
+    margin: 5px auto;
+    border-radius: 5px;
 }
