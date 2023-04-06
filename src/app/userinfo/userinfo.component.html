@@ -1,0 +1,6 @@
+<div class="test">
+  <label for="userName">Enter user name:</label>  
+  <input type="input" id='userName' [(ngModel)]="userName" />
+  <p>{{ userName }}</p>
+  <button class="btn btn-primary" [disabled]="getStatus()" (click)="setUserName()">Reset</button>
+</div>
