@@ -5,13 +5,15 @@ import { WarningAlert } from './warningalert/warning.component';
 import { SuccessalertComponent } from './successalert/successalert.component';
 import { UserinfoComponent } from './userinfo/userinfo.component';
 import { FormsModule } from '@angular/forms';
+import { SecretkeyComponent } from './secretkey/secretkey.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WarningAlert,
     SuccessalertComponent,
-    UserinfoComponent
+    UserinfoComponent,
+    SecretkeyComponent
   ],
   imports: [
     BrowserModule,
